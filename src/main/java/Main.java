@@ -8,7 +8,7 @@ public class Main {
             System.exit(1);
         }
 
-        // Create and show the GUI on the Event Dispatch Thread
+        // Creating and showing the GUI on the Event Dispatch Thread
         javax.swing.SwingUtilities.invokeLater(() -> {
             ExhibitionRegistrationSystem app = new ExhibitionRegistrationSystem();
             app.setVisible(true);
