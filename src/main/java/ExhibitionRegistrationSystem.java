@@ -122,9 +122,9 @@ public class ExhibitionRegistrationSystem extends JFrame {
 
     private void insertSampleData() throws SQLException {
         String[] sampleData = {
-                "INSERT INTO Participants VALUES ('VUE001', 'John Smith', 'Computer Science', 'AI-Based Weather Prediction', '0712345678', 'john.smith@vu.edu', '')",
-                "INSERT INTO Participants VALUES ('VUE002', 'Sarah Johnson', 'Engineering', 'Smart Irrigation System', '0723456789', 'sarah.j@vu.edu', '')",
-                "INSERT INTO Participants VALUES ('VUE003', 'Michael Brown', 'Biotechnology', 'Bio-Degradable Plastics', '0734567890', 'michael.b@vu.edu', '')",
+                "INSERT INTO Participants VALUES ('VUE001', 'Atwine Hazel', 'Computer Science', 'AI-Based Weather Prediction', '0712345678', 'john.smith@vu.edu', '')",
+                "INSERT INTO Participants VALUES ('VUE002', 'Mawanda Marques', 'Engineering', 'Smart Irrigation System', '0723456789', 'sarah.j@vu.edu', '')",
+                "INSERT INTO Participants VALUES ('VUE003', 'Isaac Marvin', 'Biotechnology', 'Bio-Degradable Plastics', '0734567890', 'michael.b@vu.edu', '')",
                 "INSERT INTO Participants VALUES ('VUE004', 'Emily Davis', 'Mathematics', 'Quantum Computing Algorithms', '0745678901', 'emily.d@vu.edu', '')",
                 "INSERT INTO Participants VALUES ('VUE005', 'David Wilson', 'Physics', 'Solar Energy Optimization', '0756789012', 'david.w@vu.edu', '')"
         };
