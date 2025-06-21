@@ -9,7 +9,7 @@ public class ExhibitionRegistrationSystem extends JFrame {
     private static final String DB_URL = "jdbc:sqlite:VUE_Exhibition.db";
     private Connection connection;
 
-    // Form components
+    // Components for forms
     private JTextField txtRegId, txtName, txtFaculty, txtProjectTitle, txtContact, txtEmail;
     private JLabel lblImage;
     private JButton btnRegister, btnSearch, btnUpdate, btnDelete, btnClear, btnExit, btnUpload;
@@ -21,7 +21,7 @@ public class ExhibitionRegistrationSystem extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
-        // Initialize database connection
+        // Initializing database connection
         connectToDatabase();
 
         // Create form panel
@@ -324,3 +324,4 @@ public class ExhibitionRegistrationSystem extends JFrame {
         return true;
     }
 }
+
